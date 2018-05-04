@@ -1,0 +1,109 @@
+.App {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.App-intro {
+  position: relative;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 100px;
+  font-family: "Arial", cursive;
+  font-size: 15px;
+  color: rgb(30, 56, 30);
+}
+.feat {
+  position: absolute;
+  align-content: left;
+  margin-left: -30px;
+  width: 350px;
+  height: 250px;
+}
+.list-group-item {
+  position: relative;
+  text-align: left;
+  margin-left: -30px;
+  width: 30%;
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  color: rgb(30, 56, 30);
+}
+.trailName {
+  position: relative;
+  text-align: left;
+  margin-left: -30px;
+  padding: 10px;
+  width: 30%;
+  font-family: "Arial", cursive;
+  font-size: 15px;
+  color: rgb(30, 56, 30);
+}
+.trailDesc {
+  position: relative;
+  text-align: left;
+  margin-left: -30px;
+  padding: 10px;
+  width: 30%;
+  font-family: "Arial", cursive;
+  font-size: 15px;
+  color: rgb(30, 56, 30);
+}
+.difficulty {
+  position: relative;
+  text-align: left;
+  margin-left: -10px;
+  width: 30%;
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  color: rgb(30, 56, 30);
+}
+.star {
+  position: relative;
+  text-align: left;
+  margin-left: -10px;
+  width: 30%;
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  color: rgb(30, 56, 30);
+}
+.list {
+  margin-top: 250px;
+}
+.trailName {
+  width: 25%;
+}
+.trailDesc {
+  width: 25%;
+}
+.list-unstyled {
+  font-size: 20px;
+  padding: 0px;
+  margin-left: -100px;
+}
+.name {
+ padding: 0px;
+ margin-left: -100px;
+ text-align: left;
+}
+.message {
+  font-family: 'Istok Web', sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
